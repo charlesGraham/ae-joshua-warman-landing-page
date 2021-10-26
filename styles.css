@@ -158,3 +158,47 @@ header > h3 {
     margin-right: auto;
 }
 /* -------------------- costs -------------------- */
+
+/* -------------------- how -------------------- */
+
+.how {
+    padding: 0 100px;
+}
+
+.how > h3 {
+    font-size: 58px;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.how-content {
+    display: flex;
+}
+
+.how-text > div > h3 {
+    font-size: 24px;
+    color: #5b5b5b;
+}
+
+.how-text > div > p {
+    padding: 0 40px;
+    color: #757575;
+}
+
+.how > button {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #262a82;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 45%;
+}
+
+.how > p {
+    font-size: 22px;
+}
+
+/* -------------------- how -------------------- */
