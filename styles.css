@@ -50,7 +50,12 @@ header > h3 {
 }
 
 .hero > p {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero > #blurb {
+    font-weight: 400;
 }
 
 .hero > h1 {
@@ -78,14 +83,15 @@ header > h3 {
 .listings > h3 {
     color: #5b5b5b;
     text-align: center;
-    font-size: 32px;
+    font-size: 50px;
     margin-top: 0;
     padding-top: 40px;
 }
 
 .listings > hr {
     width: 50%;
-    color: #000;
+    border: 1px solid #000;
+    border-bottom: none;
     margin-bottom: 60px;
 }
 
@@ -104,6 +110,15 @@ header > h3 {
     margin: 0 10px;
 }
 
+.listing-description {
+    background-color: #262a82;
+    color: #fff;
+}
+
+.listing-description > h3 {
+    margin-top: 10px;
+}
+
 .listing-buttons {
     text-align: center;
 }
@@ -114,6 +129,8 @@ header > h3 {
     color: #262a82;
     border: 3px solid #262a82;
     text-transform: uppercase;
+    margin: 0 15px;
+    margin-bottom: 30px;
 }
 
 .listing-buttons > button:active {
