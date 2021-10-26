@@ -161,6 +161,7 @@ header > h3 {
 .snippet > hr {
     width: 50%;
     border: 1px solid #000;
+    border-bottom: none;
     margin-bottom: 40px;
 }
 
@@ -256,6 +257,7 @@ header > h3 {
 
 .bundle > hr {
     width: 75%;
+    border-bottom: none;
 }
 
 .bundle-display {
@@ -287,6 +289,7 @@ header > h3 {
 
 .bundle > hr {
     border: 1px solid #000;
+    border-bottom: none;
     margin-bottom: 40px;
 }
 
