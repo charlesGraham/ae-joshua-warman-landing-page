@@ -121,3 +121,39 @@ header > h3 {
 }
 
 /* -------------------- listings -------------------- */
+
+/* -------------------- snippet -------------------- */
+
+.snippet {
+    padding: 0 100px;
+    text-align: center;
+}
+
+.snippet > h3 {
+    color: #5b5b5b;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.snippet > hr {
+    width: 50%;
+    border: 1px solid #000;
+}
+
+/* -------------------- snippet -------------------- */
+
+/* -------------------- costs -------------------- */
+
+.costs {
+    padding: 0 100px;
+    display: flex;
+}
+
+.costs > img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------------------- costs -------------------- */
