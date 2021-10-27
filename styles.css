@@ -304,6 +304,8 @@ header > h3 {
 
 .faq > h3 {
     text-align: center;
+    color: #5b5b5b;
+    font-size: 40px;
 }
 
 .column > p {
@@ -325,6 +327,14 @@ header > h3 {
     flex: 1;
   }
 
+  .column > h3 {
+    color: #5b5b5b;
+  }
+
+  .column > p {
+    font-size: 14px;
+}
+
 
 /* -------------------- FAQ -------------------- */
 
@@ -338,9 +348,9 @@ header > h3 {
 }
 
 .get-started > h3 {
-    /* padding-top: 40px; */
     font-size: 48px;
     font-weight: 700;
+    padding-top: 30px;
 }
 
 .get-started > p {
