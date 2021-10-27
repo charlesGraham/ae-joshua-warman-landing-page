@@ -290,7 +290,70 @@ header > h3 {
 .bundle > hr {
     border: 1px solid #000;
     border-bottom: none;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /* -------------------- bundle -------------------- */
+
+/* -------------------- FAQ -------------------- */
+
+.faq {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.faq > h3 {
+    text-align: center;
+}
+
+.column > p {
+    padding: 0 40px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+/* -------------------- FAQ -------------------- */
+
+/* -------------------- get started -------------------- */
+
+.get-started {
+    padding: 0 100px;
+    background-color: #262a82;
+    color: #fff;
+    text-align: center;
+}
+
+.get-started > h3 {
+    /* padding-top: 40px; */
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.get-started > p {
+    font-size: 18px;
+}
+
+.get-started > button {
+    background-color: #fff;
+    color: #262a82;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* -------------------- get started -------------------- */
