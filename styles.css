@@ -139,8 +139,9 @@ header > h3 {
     margin-bottom: 30px;
 }
 
-.listing-buttons > button:active {
+.listing-buttons > button:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
 /* -------------------- listings -------------------- */
