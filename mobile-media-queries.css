@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .listings {
+    padding: 0 25px;
+  }
+
   .listings>h3 {
     font-size: 32px;
   }
@@ -41,6 +45,7 @@
   .how {
     display: flex;
     flex-direction: column;
+    padding: 0 25px;
   }
 
   .how h3 {
@@ -73,12 +78,20 @@
     left: 0;
   }
 
+  .faq {
+    padding: 0 25px;
+  }
+
   .faq h3 {
     font-size: 36px;
   }
 
   .column>h3 {
     font-size: 32px;
+  }
+
+  .get-started {
+    padding: 0 25px;
   }
 
   .get-started h3 {

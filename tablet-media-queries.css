@@ -32,9 +32,8 @@
     display: none;
   }
 
-  .how button {
+  .how>button {
     left: 0;
-    width: 25%;
     align-self: center;
   }
 
@@ -51,9 +50,8 @@
     font-size: 18px;
   }
 
-  .bundle button {
+  .bundle>button {
     left: 0;
-    width: 30%;
     align-self: center;
   }
 
