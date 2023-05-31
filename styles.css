@@ -1,4 +1,3 @@
-
 body {
     height: 100%;
     margin: 0;
@@ -18,11 +17,11 @@ header {
     justify-content: space-between;
 }
 
-header > img {
-    width: 15%;
+header>img {
+    width: 20%;
 }
 
-header > h3 {
+header>h3 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 50px;
@@ -49,21 +48,21 @@ header > h3 {
     padding: 100px;
 }
 
-.hero > p {
+.hero>p {
     font-size: 20px;
     font-weight: 700;
 }
 
-.hero > #blurb {
+.hero>#blurb {
     font-weight: 400;
 }
 
-.hero > h1 {
+.hero>h1 {
     font-size: 70px;
     margin: 50px 0;
 }
 
-.hero > button {
+.hero>button {
     padding: 15px 20px;
     background-color: #262a82;
     color: #fff;
@@ -71,6 +70,7 @@ header > h3 {
     font-size: 18px;
     font-weight: 700;
 }
+
 /* -------------------- hero -------------------- */
 
 /* -------------------- listings -------------------- */
@@ -80,7 +80,7 @@ header > h3 {
     background-color: #f6f6f6;
 }
 
-.listings > h3 {
+.listings>h3 {
     color: #5b5b5b;
     text-align: center;
     font-size: 50px;
@@ -88,7 +88,7 @@ header > h3 {
     padding-top: 40px;
 }
 
-.listings > hr {
+.listings>hr {
     width: 50%;
     border: 1px solid #000;
     border-bottom: none;
@@ -115,12 +115,12 @@ header > h3 {
     color: #fff;
 }
 
-.listing-description > h3 {
+.listing-description>h3 {
     margin: 10px 0;
     font-size: 36px;
 }
 
-.listing-description > p {
+.listing-description>p {
     margin: 5px 0;
     font-size: 24px;
 }
@@ -129,7 +129,7 @@ header > h3 {
     text-align: center;
 }
 
-.listing-buttons > button {
+.listing-buttons>button {
     padding: 20px 30px;
     font-size: 22px;
     color: #262a82;
@@ -139,7 +139,7 @@ header > h3 {
     margin-bottom: 30px;
 }
 
-.listing-buttons > button:hover {
+.listing-buttons>button:hover {
     background-color: #fff;
     cursor: pointer;
 }
@@ -153,13 +153,13 @@ header > h3 {
     text-align: center;
 }
 
-.snippet > h3 {
+.snippet>h3 {
     color: #5b5b5b;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.snippet > hr {
+.snippet>hr {
     width: 50%;
     border: 1px solid #000;
     border-bottom: none;
@@ -176,12 +176,13 @@ header > h3 {
     background-color: #f6f6f6;
 }
 
-.costs > img {
+.costs>img {
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* -------------------- costs -------------------- */
 
 /* -------------------- how -------------------- */
@@ -190,7 +191,7 @@ header > h3 {
     padding: 0 100px;
 }
 
-.how > h3 {
+.how>h3 {
     font-size: 58px;
     color: #000;
     margin-bottom: 35px;
@@ -200,17 +201,17 @@ header > h3 {
     display: flex;
 }
 
-.how-text > div > h3 {
+.how-text>div>h3 {
     font-size: 24px;
     color: #5b5b5b;
 }
 
-.how-text > div > p {
+.how-text>div>p {
     padding: 0 40px;
     color: #757575;
 }
 
-.how > button {
+.how>button {
     text-align: center;
     padding: 20px 30px;
     background-color: #262a82;
@@ -222,7 +223,7 @@ header > h3 {
     left: 45%;
 }
 
-.how > p {
+.how>p {
     font-size: 22px;
 }
 
@@ -235,7 +236,7 @@ header > h3 {
     background-color: #f6f6f6;
 }
 
-.bundle > h3 {
+.bundle>h3 {
     font-size: 60px;
     margin-top: 0;
     text-align: center;
@@ -243,20 +244,20 @@ header > h3 {
     color: #5b5b5b;
 }
 
-.bundle > p {
+.bundle>p {
     text-align: center;
     color: #5b5b5b;
     margin-bottom: 2px;
     font-size: 20px;
 }
 
-.bundle > p > span {
+.bundle>p>span {
     font-weight: 700;
     color: #000;
     text-decoration: underline;
 }
 
-.bundle > hr {
+.bundle>hr {
     width: 75%;
     border-bottom: none;
 }
@@ -276,7 +277,7 @@ header > h3 {
     padding: 0 25px;
 }
 
-.bundle > button {
+.bundle>button {
     text-align: center;
     padding: 20px 30px;
     background-color: #262a82;
@@ -288,7 +289,7 @@ header > h3 {
     left: 45%;
 }
 
-.bundle > hr {
+.bundle>hr {
     border: 1px solid #000;
     border-bottom: none;
     margin-bottom: 30px;
@@ -303,13 +304,13 @@ header > h3 {
     padding: 0 100px;
 }
 
-.faq > h3 {
+.faq>h3 {
     text-align: center;
     color: #5b5b5b;
     font-size: 40px;
 }
 
-.column > p {
+.column>p {
     padding: 0 40px;
     text-align: center;
 }
@@ -319,20 +320,20 @@ header > h3 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-  }
-  
-  .column {
+}
+
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-  }
+}
 
-  .column > h3 {
+.column>h3 {
     color: #5b5b5b;
-  }
+}
 
-  .column > p {
+.column>p {
     font-size: 14px;
 }
 
@@ -348,17 +349,17 @@ header > h3 {
     text-align: center;
 }
 
-.get-started > h3 {
+.get-started>h3 {
     font-size: 48px;
     font-weight: 700;
     padding-top: 30px;
 }
 
-.get-started > p {
+.get-started>p {
     font-size: 18px;
 }
 
-.get-started > button {
+.get-started>button {
     background-color: #fff;
     color: #262a82;
     padding: 20px;
@@ -378,7 +379,7 @@ footer {
     padding: 0 100px;
 }
 
-footer > p {
+footer>p {
     /* padding-top: 40px; */
     margin: 0;
     padding: 40px;
@@ -389,13 +390,13 @@ footer > p {
     justify-content: space-between;
 }
 
-.closer > div > h3 {
+.closer>div>h3 {
     margin: 0;
     position: relative;
     top: 40px;
 }
 
-.closer > img {
+.closer>img {
     width: 10%;
     height: 20%;
 }

@@ -85,9 +85,12 @@
     font-size: 32px;
   }
 
+  footer {
+    padding: 0 25px;
+  }
+
   footer p {
     display: none;
-    padding: 0 25px;
   }
 
   .closer {

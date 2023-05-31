@@ -1,0 +1,71 @@
+@media screen and (max-width: 900px) {
+  header img {
+    width: 25%;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .listings h3 {
+    font-size: 36px;
+  }
+
+  .listings-display {
+    flex-wrap: wrap;
+  }
+
+  .snippet h3 {
+    font-size: 36px;
+  }
+
+  .how {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .how h3 {
+    font-size: 36px;
+  }
+
+  .how-content img {
+    display: none;
+  }
+
+  .how button {
+    left: 0;
+    width: 25%;
+    align-self: center;
+  }
+
+  .bundle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bundle h3 {
+    font-size: 36px;
+  }
+
+  .bundle p {
+    font-size: 18px;
+  }
+
+  .bundle button {
+    left: 0;
+    width: 30%;
+    align-self: center;
+  }
+
+  .faq h3 {
+    font-size: 36px;
+  }
+
+  .get-started h3 {
+    font-size: 36px;
+  }
+
+  .company-info img {
+    width: 200px;
+  }
+}
