@@ -1,0 +1,121 @@
+@media only screen and (max-width: 600px) {
+  header img {
+    width: 33%;
+  }
+
+  header h3 {
+    font-size: 19px;
+  }
+
+  .hero h1 {
+    display: none;
+  }
+
+  .listings {
+    padding: 0 25px;
+  }
+
+  .listings>h3 {
+    font-size: 32px;
+  }
+
+  .listings-display {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listings-display h3 {
+    font-size: 32px;
+  }
+
+  .listing-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .snippet {
+    display: none;
+  }
+
+  .costs {
+    display: none;
+  }
+
+  .how {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+  }
+
+  .how h3 {
+    font-size: 32px;
+  }
+
+  .how-content>img {
+    display: none;
+  }
+
+  .how>button {
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .bundle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bundle h3 {
+    font-size: 32px;
+  }
+
+  .bundle-display {
+    display: none;
+  }
+
+  .bundle>button {
+    left: 0;
+    padding: 25px 25px;
+  }
+
+  .faq {
+    padding: 0 25px;
+  }
+
+  .faq h3 {
+    font-size: 36px;
+  }
+
+  .column>h3 {
+    font-size: 32px;
+  }
+
+  .get-started {
+    padding: 0 25px;
+  }
+
+  .get-started h3 {
+    font-size: 32px;
+  }
+
+  footer {
+    padding: 0 25px;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  .closer {
+    justify-content: space-evenly;
+  }
+
+  .closer .company-info {
+    bottom: 0;
+  }
+
+  .closer .equalOpp-housing {
+    display: none;
+  }
+}
